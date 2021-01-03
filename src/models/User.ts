@@ -1,7 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
 
 //using decorators
-@Entity('appointments')
+@Entity('users')
 class Appointment {
   @PrimaryGeneratedColumn('uuid')
   id: string;
